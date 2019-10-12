@@ -1,8 +1,64 @@
+/* Setting the main border, padding and margin around all elements on the page */
 *{
 	border:0;
 	padding: 0;
 	margin: 0;
 }
+
+/*Styling for all that is within the header: navigation, logo, images, etc*/
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90px;
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	border-bottom: 4px solid #ff5757;
+}
+
+.logo {
+	max-width: 280px;
+	height: auto;
+}
+
+/*
+h3 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 25px;
+	letter-spacing: 2px;
+}*/
+
+nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+}
+
+/* Place space between the links  and style links*/
+
+li{
+	padding: 8px;
+	margin: 59px;
+	color: red;
+	box-shadow: 7px 7px #ff5757;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 15px;
+}
+
+/* Style links so that they don't appear to have blue link before/after clicked*/
+
+nav a:link,
+nav a:visited {
+	color: black;
+	text-decoration: none;
+	padding: 18px 10px;
+}
+
+
+/* Styling below is for the continents divs*/
 
 div {
 	display: flex;
@@ -11,47 +67,91 @@ div {
 	font-weight: bold;
 	font-family: big john;
 	width: 100%;
-	height: 100px;
+	height: 100vh;
 }
 
 h2 {
-	font-size: 60px;
-	background-color: #eee;
-	padding: 8px 24px;
-	border-radius: 16px;
+	font-size: 40px;
+	background-color: rgba(220, 59, 59, 0.7);
+	padding: 0px 10px;
+	color: white; 
+	border-radius: 10px 40px;
+	font-family: 'Fjalla One', sans-serif;
+	text-shadow: 2px 2px black;
 }
 
 .north {
 	background-image: url('../images/north.jpg');
 	background-size: cover;
+	height: 500px;
+	background-attachment: fixed;
 }
 
 .south {
-	background-image: url('..images/south.jpg');
+	background-image: url('../images/south.jpg');
 	background-size: cover;
+	height: 500px;
+	background-attachment: fixed;
+
 }
 
 .europe {
-	background-image: url('..images/europe.jpg');
+	background-image: url('../images/europe.jpg');
 	background-size: cover;
+	height: 500px;
+	background-attachment: fixed;
 }
 
 .asia {
-	background-image: url('..images/asia.jpg');
+	background-image: url('../images/asia.jpg');
 	background-size: cover;
+	height: 500px;
+	background-attachment: fixed;
 }
 
 .africa {
-	background-image: url('..images/africa.jpg');
+	background-image: url('../images/africa.jpg');
 	background-size: cover;
+	height: 500px;
+	background-attachment: fixed;
 }
 
 .aussie {
-	background-image: url('..images/aussie.jpg');
+	background-image: url('../images/aussie.jpg');
 	background-size: cover;
+	height: 500px;
+	background-attachment: fixed;
 }
 
 .antar {
-	background-image: url('..images/antar.jpg');
+	background-image: url('../images/antar.jpg');
 	background-size: cover;
+	height: 500px;
+	background-attachment: fixed;
+}
+
+/* Adjust settings for the footer */
+
+footer {
+	height: 60px;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+h4 {
+	font-family: 'Fjalla One', sans-serif;
+	size: 16px;
+	text-align: center;
+	color: #ff5757;
+}
+
+#footer {
+	size: 2px;
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
 }
