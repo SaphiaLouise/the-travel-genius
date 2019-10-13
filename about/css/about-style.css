@@ -1,0 +1,91 @@
+/* Setting the main border, padding and margin around all elements on the page */
+*{
+	border:0;
+	padding: 0;
+	margin: 0;
+}
+
+/*Styling for all that is within the header: navigation, logo, images, etc*/
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90px;
+	width: 100%;
+	background-color: white;
+	border-bottom: 4px solid #ff5757;
+}
+
+.logo {
+	max-width: 280px;
+	height: auto;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+}
+
+/* Place space between the links  and style links*/
+
+li{
+	padding: 8px;
+	margin: 59px;
+	color: red;
+	box-shadow: 7px 7px #ff5757;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 15px;
+}
+
+/* Style links so that they don't appear to have blue link before/after clicked*/
+
+nav a:link,
+nav a:visited {
+	color: black;
+	text-decoration: none;
+	padding: 18px 10px;
+}
+
+nav a:hover {
+	color: red;
+}
+
+.logoLink {
+	text-decoration: none;
+	border: none;
+	box-shadow: none;
+}
+
+/* Styling the main section content of the page */
+
+.main {
+	display: flex;
+	width: 100%;
+}
+
+.sidebar {
+	width: 20%;
+	background-color: black;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	margin-top: 60px;
+	height: 300px;
+
+}
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.info {
+	margin: 20%;
+	height: 300px;
+}
+
+p {
+	line-height: 20px;
+}

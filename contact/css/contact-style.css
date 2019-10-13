@@ -11,8 +11,7 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 90px;
-	position: fixed;
+	height: 100px;
 	width: 100%;
 	background-color: white;
 	border-bottom: 4px solid #ff5757;
@@ -61,81 +60,69 @@ nav a:hover {
 	box-shadow: none;
 }
 
+/* Styling the form on the contact page  NEED TO ADD JAVASCRIPT IN SOME WAY TO THIS PAGE*/
 
-/* Styling below is for the continents divs*/
-
-div {
+.main {
+	background-image: url('../../images/contact.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+	opacity: 0.7;
 	display: flex;
-	align-items: center;
+	flex-wrap: wrap;
+}
+
+#contact-form {
 	justify-content: center;
-	width: 100%;
-/*	height: 100vh;*/
 }
 
-h2 {
-	font-size: 40px;
-	background-color: rgba(220, 59, 59, 0.7);
-	padding: 0px 10px;
-	color: white; 
-	border-radius: 10px 40px;
+
+form {
+	margin: 100px 50px;
+	transition: all 4s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+.form-control {
+	width: 500px;
+	background: transparent;
+	border: none;
+	outline: all;
+	border-bottom: 1px solid #ff5757;
+	color: black;
+	font-size: 28px;
+	margin-bottom: 16px;
+	font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+input {
+	height: 45px;
+}
+
+form .submit{
+	background: #ff5757;
+	border-color: transparent;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	height: 50px;
+	margin-top: 20px;
 	font-family: 'Fjalla One', sans-serif;
-	text-shadow: 2px 2px black;
 }
 
-.north {
-	background-image: url('../images/north.jpg');
-	background-size: cover;
-	height: 550px;
-	background-attachment: fixed;
+form .submit:hover{
+	background-color: white;
+	cursor: pointer;
 }
 
-.south {
-	background-image: url('../images/south.jpg');
-	background-size: cover;
-	height: 500px;
-	background-attachment: fixed;
 
-}
-
-.europe {
-	background-image: url('../images/europe.jpg');
-	background-size: cover;
-	height: 500px;
-	background-attachment: fixed;
-}
-
-.asia {
-	background-image: url('../images/asia.jpg');
-	background-size: cover;
-	height: 500px;
-	background-attachment: fixed;
-}
-
-.africa {
-	background-image: url('../images/africa.jpg');
-	background-size: cover;
-	height: 500px;
-	background-attachment: fixed;
-}
-
-.aussie {
-	background-image: url('../images/aussie.jpg');
-	background-size: cover;
-	height: 500px;
-	background-attachment: fixed;
-}
-
-.antar {
-	background-image: url('../images/antar.jpg');
-	background-size: cover;
-	height: 500px;
-	background-attachment: fixed;
-}
-
-/* Adjust settings for the footer */
+/* These styles below are targetting the footer */
 
 footer {
-	height: 60px;
+	height: 20px;
 	display: inline-block;
 	justify-content: center;
 	align-items: center;
@@ -157,3 +144,4 @@ h4 {
 	font-family: 'Fjalla One', sans-serif;
 	text-transform: uppercase;
 }
+
