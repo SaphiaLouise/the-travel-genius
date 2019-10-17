@@ -82,50 +82,56 @@ h2 {
 	text-shadow: 2px 2px black;
 }
 
-.north {
+#north {
 	background-image: url('../images/north.jpg');
 	background-size: cover;
 	height: 550px;
 	background-attachment: fixed;
+	cursor: pointer;
 }
 
-.south {
+#south {
 	background-image: url('../images/south.jpg');
 	background-size: cover;
 	height: 500px;
 	background-attachment: fixed;
+	cursor: pointer;
 
 }
 
-.europe {
+#europe {
 	background-image: url('../images/europe.jpg');
 	background-size: cover;
 	height: 500px;
 	background-attachment: fixed;
+	cursor: pointer;
 }
 
-.asia {
+#asia {
 	background-image: url('../images/asia.jpg');
 	background-size: cover;
 	height: 500px;
 	background-attachment: fixed;
+	cursor: pointer;
 }
 
-.africa {
+#africa {
 	background-image: url('../images/africa.jpg');
 	background-size: cover;
 	height: 500px;
 	background-attachment: fixed;
+	cursor: pointer;
 }
 
-.aussie {
+#aussie {
 	background-image: url('../images/aussie.jpg');
 	background-size: cover;
 	height: 500px;
 	background-attachment: fixed;
+	cursor: pointer;
 }
 
-.antar {
+#antar {
 	background-image: url('../images/antar.jpg');
 	background-size: cover;
 	height: 500px;

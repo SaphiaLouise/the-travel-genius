@@ -61,33 +61,71 @@ nav a:hover {
 
 /* Styling the main section content of the page */
 
-.main {
+section {
 	display: flex;
+	justify-content: space-around;
 	width: 100%;
 }
-
-.sidebar {
-	width: 40%;
-	background-color: black;
-	text-align: center;
-	line-height: 50px;
-	color: white;
-	margin-top: 60px;
-	height: 300px;
-
-}
-
 
 h1 {
 	font-family: 'Fjalla One', sans-serif;
 }
 
-.info {
-	margin: 20%;
+.sidebar {
+	width: 30%;
+	background-color: black;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	margin-top: 200px;
+	margin-left: 20px;
 	height: 300px;
+	font-size: 20px;
+	line-height: 90px;
 }
 
-p {
-	line-height: 20px;
-	background-color: blue;
+.click {
+	align-items: center;
+	justify-content: center;
+	width:500px;
+	height:100px;
+	background-color: #ff5757;
+	text-align: center;
+	margin-top: 300px;
+	margin-left: 100px;
+	flex-wrap: wrap;
+	display: flex;
+	font-family: 'Fjalla One', sans-serif;
 }
+
+
+
+/* ALL DESIGNS BENEATH ARE FOR THE FOOTER */
+
+footer {
+	height: 60px;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+h4 {
+	font-family: 'Fjalla One', sans-serif;
+	size: 16px;
+	text-align: center;
+	color: #ff5757;
+}
+
+#footer {
+	size: 2px;
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+}
+
+
+
+
